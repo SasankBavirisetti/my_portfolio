@@ -1,0 +1,27 @@
+.intern
+{
+    height: 500px;
+    width: 500px;
+}
+.experience
+{
+    /* background-color: blue; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 90%;
+}
+.project-details
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 20px;
+    row-gap: 10px;
+}
+h2
+{
+    margin-top: 20px;
+}

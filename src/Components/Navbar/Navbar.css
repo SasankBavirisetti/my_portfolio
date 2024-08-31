@@ -1,0 +1,27 @@
+.navbar
+{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(63, 60, 60);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+.links
+{
+    display: flex;
+    column-gap: 30px;
+    font-size: 20px;
+}
+ ul li
+{
+    list-style-type: none;
+}
+ ul li:hover
+{
+    cursor: pointer;
+}

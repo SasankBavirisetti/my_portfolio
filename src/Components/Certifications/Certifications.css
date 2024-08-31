@@ -1,0 +1,19 @@
+.cert-heading
+{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.certificates
+{
+    display: flex;
+    row-gap: 100px;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 30px;
+}
+.cert-image
+{
+    height: 500px;
+    margin: auto;
+}

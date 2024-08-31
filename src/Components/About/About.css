@@ -1,0 +1,90 @@
+
+.about
+{
+    width: 80%;
+    display: flex;
+    align-items: ce/nter;
+    justify-content: space-around;
+}
+
+
+.profile-image
+{
+    border-radius: 50%;
+    height: 400px;
+}
+.name
+{
+    font-size: 50px;
+    font-weight: 700;
+}
+.my-details
+{
+    /* background-color: blue; */
+    height: 500px;
+    width: 800px;
+    padding: 29px;
+}
+.typewriter
+{
+    font-size: 30px;
+    font-weight: 700;
+}
+.skill-details
+{
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+    column-gap: 30px;
+    /* margin-bottom: 10px; */
+    padding-bottom: 10px;
+}
+.btn
+{
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    border: 1px solid rgb(69, 69, 69);
+    border-radius: 5px;
+    /* margin: 20px 200px; */
+}
+.btn:hover
+{
+    cursor: pointer;
+    background-color: rgb(173, 173, 173);
+    transform: scale(1.02);
+    transition: 0.5s;
+    /* color: white; */
+}
+.btns
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+    margin-top: 20px;
+}
+.logos
+{
+    /* background-color: red; */
+    height: 100px;
+    width: 300px;
+    margin: 20px auto;
+}
+.social-logo
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.git
+{
+    background-color: white;
+}
+.social-logo:hover
+{
+    cursor: pointer;
+    transform: scale(1.02);
+}
